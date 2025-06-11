@@ -10,4 +10,5 @@ def display_predic_diff_error(y_test, predictions):
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
+    plt.savefig('erreurs.png')
     plt.show()
